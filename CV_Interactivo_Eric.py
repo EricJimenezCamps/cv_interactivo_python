@@ -1,5 +1,5 @@
 def run ():
-    pass
+    menu()
 
 def menu ():
     texto_menu= print("""
@@ -17,3 +17,7 @@ def menu ():
                 ¿Qué apartado quieres visitar?
     
     """)
+
+
+if __name__ == '__main__':
+  run()
